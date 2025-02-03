@@ -1,1 +1,15 @@
-h1 {color: green}
+body { background-color: rgb(198, 245, 127)}
+
+header h1 {color: green;}
+
+main h1 {color: rgba(164, 25, 25, 0.945)}
+
+main h2 {color: goldenrod;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16pt;}
+
+main p {font-family: 'Times New Roman', Times, serif;
+        font-size: 13pt;}
+
+#firstpar {color: gray;}
+.purple {color: purple;}
