@@ -1,4 +1,4 @@
-body { background-color: rgb(198, 245, 127)}
+body { background-color: rgba(184, 198, 164, 0.72)}
 
 header h1 {color: green;}
 
@@ -11,5 +11,5 @@ main h2 {color: goldenrod;
 main p {font-family: 'Times New Roman', Times, serif;
         font-size: 13pt;}
 
-#firstpar {color: gray;}
-.purple {color: purple;}
+#firstpar {color: rgba(105, 0, 0, 0.94);}
+.blue {color: blue;}
