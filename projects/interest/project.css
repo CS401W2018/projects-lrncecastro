@@ -1,7 +1,9 @@
-body {background-color: rgb(176, 184, 176); font-family:cursive; color: black;font-size: 13pt;}
+body {background-color: rgb(190, 235, 190); font-family:cursive; color: black;font-size: 13pt;}
 
 main h2 {color: rgb(219, 19, 19);}
 
-#link {color: rgb(1, 2, 16)}
+#link {color: rgb(1, 2, 16); font-size: 16pt;}
+#qoute {color: blue; font-style: italic; font-size: 14pt;}
 .anime {font-style: italic; color: blue; font-size: 15pt;}
-.videogame {font-style: italic; color: blue; font-size: 15pt}
+.videogame {font-style:normal; color: rgb(45, 159, 136); font-size: 15pt}
+.verse {color: rgb(45, 159, 136);font-style: italic; font-size: 10pt;}
