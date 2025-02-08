@@ -3,6 +3,8 @@ body{background-color: rgb(213, 231, 231);
 
 main{font-family: 'Times New Roman', Times, serif;
      font-size: 14pt;}
+    
+main p{font-size: 13pt;}
 
 .civic{width: 750px; height: 650px;}
 
