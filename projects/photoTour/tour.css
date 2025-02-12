@@ -1,4 +1,6 @@
 body{background: url('nihon.jpg');}
 
-a {color: black;}
+nav a {color: black;}
+.none{text-decoration: none;}
 
+.bullet{list-style-image: url('SportCar.png');}
