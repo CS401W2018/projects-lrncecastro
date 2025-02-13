@@ -1,19 +1,15 @@
 #first{background: url('nihon.jpg');}
 #second{background: url('background.png');}
-#third{background-color: url();}
-#fourth{background: url('sunset.png');}
-#fifth{background: url();}
-#sixth{background: url();}
 
 nav a {color: black;}
 .none{text-decoration: none;}
 
-.tokyo{width:430px; height: 470px}
-.tower{width: 430px; height: 470px;}
+.tokyo{width:500px; height: 470px}
+.tower{width: 500px; height: 470px;}
 
-.shibuya{width: 400px; height:450px}
-.stair{width: 400px; height: 450px}
+.shibuya{width: 500px; height:470px}
+.stair{width: 500px; height: 470px}
 
 .hiroshima{width: 600px; height: 550px}
 
-.hakone{width: 400px; height: 450px}
+.hakone{width: 650px; height: 555px}
