@@ -1,4 +1,9 @@
-body{background: url('nihon.jpg');}
+#first{background: url('nihon.jpg');}
+#second{background: url('background.png');}
+#third{background-color: url();}
+#fourth{background: url('sunset.png');}
+#fifth{background: url();}
+#sixth{background: url();}
 
 nav a {color: black;}
 .none{text-decoration: none;}
@@ -9,6 +14,6 @@ nav a {color: black;}
 .shibuya{width: 400px; height:450px}
 .stair{width: 400px; height: 450px}
 
-.hiroshima{width: 400px; height: 450px}
+.hiroshima{width: 600px; height: 550px}
 
 .hakone{width: 400px; height: 450px}
