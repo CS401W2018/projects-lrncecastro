@@ -3,4 +3,5 @@ body{background: url('nihon.jpg');}
 nav a {color: black;}
 .none{text-decoration: none;}
 
-.bullet{list-style-image: url('SportCar.png');}
+.tokyo{width:400px; height: 550px}
+.tower{width: 400px; height: 550px;}
