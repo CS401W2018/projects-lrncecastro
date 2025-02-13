@@ -1,14 +1,13 @@
 body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: url('WebsiteBackground.jpg');}
+    background: url('WebsiteBackground.jpg');
+    color:rgb(15, 3, 3)}
 
 #logo{background: url('Japanlogo.png') no-repeat top right;
     background-blend-mode: multiply;}
 
 nav a {color: black;}
 .none{text-decoration: none;}
-.list{list-style-type: none;
-      list-style-image: url('Train.jpeg');
-      display: inline-block;}
+
 
 .tokyo{width:500px; height: 470px}
 .tower{width: 500px; height: 470px;}
