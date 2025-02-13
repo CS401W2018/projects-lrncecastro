@@ -1,11 +1,14 @@
-body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background: url('nihon.jpg');}
+body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('nihon.jpg');}
 
-#logo{background: url('Japanlogo.png') no-repeat top right; background-blend-mode: multiply;}
+#logo{background: url('Japanlogo.png') no-repeat top right;
+    background-blend-mode: multiply;}
 
 nav a {color: black;}
 .none{text-decoration: none;}
 .list{list-style-type: none;
-      list-style-image: url('Train.jpeg');}
+      list-style-image: url('Train.jpeg');
+      display: inline-block;}
 
 .tokyo{width:500px; height: 470px}
 .tower{width: 500px; height: 470px;}
