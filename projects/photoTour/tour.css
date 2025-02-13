@@ -1,22 +1,6 @@
-body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: url('WebsiteBackground.jpg');
-    color:rgb(180, 25, 25)}
 
 #logo{background: url('Japanlogo.png') no-repeat top right;
     background-blend-mode: multiply;}
 
 nav a {color: rgb(245, 161, 7);}
 .none{text-decoration: none;}
-
-
-.tokyo{width:500px; height: 470px}
-.tower{width: 500px; height: 470px;}
-
-.shibuya{width: 500px; height:470px}
-.stair{width: 500px; height: 470px}
-
-.hiroshima{width: 650px; height: 550px}
-
-.hakone{width: 650px}
-
-.chiba{width: 550px}
