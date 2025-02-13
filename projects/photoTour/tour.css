@@ -1,9 +1,6 @@
-body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background: url('nihon.jpg');}
 
 #logo{background: url('Japanlogo.png') no-repeat top right; background-blend-mode: multiply;}
-
-#first{background: url('nihon.jpg');}
-#second{background: url('HakoneTrip.jpg');}
 
 nav a {color: black;}
 .none{text-decoration: none;}
