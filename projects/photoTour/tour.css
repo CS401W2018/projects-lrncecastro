@@ -1,10 +1,13 @@
 #logo{background: url('Japanlogo.png') no-repeat top right; background-blend-mode: multiply;}
 
-#first{background: url('nihon.jpg');}
+#first{background: url('mountFuji.jpg');}
 #second{background: url('background.png');}
 
 nav a {color: black;}
 .none{text-decoration: none;}
+.list{list-style: none;
+      background: url('JapanFlag.png');
+      background-size: 20px 20px;}
 
 .tokyo{width:500px; height: 470px}
 .tower{width: 500px; height: 470px;}
