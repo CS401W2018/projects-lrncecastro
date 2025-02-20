@@ -15,9 +15,9 @@ nav a{color: brown;}
 
 nav a:hover{background-color: rgb(186, 186, 228);}
 
-.photo{width: 280px;
-       height: 320px;
-       float: right;
+
+.SAO{width: 280px; height: 320}
+.photo{float: right;
        border: 1px solid black;
        text-align: center;}
 
