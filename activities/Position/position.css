@@ -1,0 +1,24 @@
+body{background-color: rgb(218, 235, 235);
+     font-family:monospace;
+     font-size: 13.5pt;}
+
+body p{font-size: 11pt;}
+
+header h1{background-color: burlywood;
+          border: 1px solid black;
+          text-align: center;}
+
+nav ul{text-align: center;
+       list-style-type: none;}
+
+nav a{color: brown;}
+
+nav a:hover{background-color: rgb(186, 186, 228);}
+
+.photo{width: 280px;
+       height: 320px;
+       float: right;
+       border: 1px solid black;
+       text-align: center;}
+
+.clear{clear: both}
