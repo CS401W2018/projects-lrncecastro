@@ -1,27 +1,28 @@
 body{background-color: rgb(122, 175, 222);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+     font-family:Arial, Helvetica, sans-serif}
 
 #wrapper{background-color: rgb(202, 213, 223);
-  width: 900px;
-  margin: 0 auto;
-  border: thin solid black}
-
-body p{font-size: 12pt;
-      font-weight: 100;
-      text-shadow: 1cm;}
+         width: 900px;
+         margin: 0 auto;
+         border: thin solid black}
 
 header{text-align: center;
-      background-color: rgb(14, 57, 57);
-      color: rgb(203, 194, 194)}
+       background-color: rgb(14, 57, 57);
+       color: rgb(203, 194, 194);
+       text-transform: capitalize;
+       font-weight: 100;
+       font-size:large;}
 
 nav ul{text-align: center;
-      text-decoration: none;}
-
-nav li{list-style-type: none;
-      background;}
+       text-decoration: none;
+       list-style-type: none;}
 
 nav a:hover{background-color: aquamarine;
-      text-decoration: underline;}
+            text-decoration: underline;}
 
-.pic
-.slime{text-align: center;}
+.pic {width:350px;
+      border: 1px solid black;
+      float: right;}
+
+body p{font-size: 12pt;
+       font-weight: 100;}
