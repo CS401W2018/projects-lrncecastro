@@ -10,11 +10,13 @@ header{text-align: center;
        background-color: rgb(14, 57, 57);
        color: rgb(203, 194, 194);
        font-weight: 100;
-       font-size:large;}
+       font-size:large;
+       text-shadow: rgb(236, 199, 48) 1px 0 10px;}
 
 nav ul{text-align: center;
        text-decoration: none;
-       list-style-type: none;}
+       list-style-type: none;
+       line-height: 0.5cm;}
 
 nav a:hover{background-color: aquamarine;
             text-decoration: underline;}
@@ -23,12 +25,20 @@ nav a:hover{background-color: aquamarine;
 
 .slime{float: right;
        border: 1px solid black;
-       text-align: center;}
+       text-align: center;
+       border-radius: 0%;
+       box-shadow: none;}
 
 body p{font-family:'Courier New', Courier, monospace;
        font-size: 12pt;
-       font-weight: 100;}
+       font-weight: 100;
+       margin-left: 10px;}
 
-main h1{text-transform: capitalize;}
+main h1{text-transform: capitalize;
+        margin-left: 10px;}
+
+.Rimuru{width: 70px;
+       float: right;
+       padding-bottom: 5px;}
 
 .clear{clear: both;}
