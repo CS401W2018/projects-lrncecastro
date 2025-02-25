@@ -1,0 +1,12 @@
+body{background-color:rgb(175, 224, 224);}
+
+body p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.parent{background-color: rgb(230, 148, 148);
+padding: 10px;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+gap: 5px;
+text-align: center;}
+
+.child{background-color: rgb(79, 145, 13);}
