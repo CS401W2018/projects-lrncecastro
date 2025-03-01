@@ -1,0 +1,23 @@
+body{background-color: rgb(169, 179, 179);}
+
+header{background-color: rgb(245, 249, 249);}
+
+
+.shadow{width: 350px; height: 280px}
+.jinwoo{width: 350px; height: 280px}
+.lugh{width: 350px; height: 280;}
+.diablo{width: 350px; height: 280;}
+.ragna{width: 350px; height: 280;}
+.rimuru{width: 350px; height: 280;}
+
+
+
+
+
+
+
+
+
+
+.cLink a{display: grid;
+       grid-template-columns: ;}
