@@ -1,23 +1,43 @@
 body{background-color: rgb(169, 179, 179);}
 
-header{background-color: rgb(245, 249, 249);}
+.container{margin: auto;
+           background-color: rgb(195, 200, 204);}
 
+header{background-color: rgb(245, 249, 249);
+       text-align: center;}
 
-.shadow{width: 350px; height: 280px}
-.jinwoo{width: 350px; height: 280px}
-.lugh{width: 350px; height: 280;}
-.diablo{width: 350px; height: 280;}
-.ragna{width: 350px; height: 280;}
-.rimuru{width: 350px; height: 280;}
+nav {display: flex;
+     justify-content: space-evenly;}
 
+nav a{display: block;}
 
+nav a:hover{background-color: aquamarine;}
 
+#sidebar{display: grid;
+         grid-template-columns: 1fr;
+         gap: 10px;
+         width: 200px;
+         padding: 15px;}
 
+.shadow, .jinwoo, .lugh, .diablo, .rimuru, .ragna {width: 350px; height: 280px;
+border: 1px solid black; border-radius: 0%; box-shadow: none;}
 
+main{text-align: center;}
 
+main p{height: 1px;}
+main h4{height: 1px}
 
+.pictures{display: grid;
+          gap:5px;
+          grid-template-columns: 2fr 2fr 2fr;}
 
+footer{padding: 1px;}
 
+.fLink a{display: block;}
 
-.cLink a{display: grid;
-       grid-template-columns: ;}
+.fLink{display: grid;
+       grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+       grid-template-rows: 2fr 1fr 2fr 1fr;
+       margin: 10px;}
+
+.fLink a:hover{background-color: aquamarine}
