@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(212, 248, 236);
+    margin: 0;
+}
+
+header h1{
+    background-color: rgb(183, 143, 143);
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    background-color: rgb(218, 233, 233);
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(156, 126, 82);
+}
+
+.card{
+    border: thin solid;
+    box-shadow: 3px 3px 3px;
+    width: 250px;
+    text-align: center;
+}
+
+.slime{
+    height: 380px
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card figure{
+    margin: 0;
+}
+
+.card img{
+    width: 100%
+}
