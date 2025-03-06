@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(236, 240, 225);
+    margin: 0;
+}
+
+header h1{
+    background-color: rgb(183, 143, 143);
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    background-color: rgb(218, 233, 233);
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(156, 126, 82);
+}
+
+.sidebar {
+    width: 30%;
+    border: 1px solid #ccc;
+    margin-bottom: 3%;
+}
+
+.sidebar img{
+    width: 100%
+}
+
+.card{
+    border: thin solid;
+    box-shadow: 3px 3px 3px;
+    width: 250px;
+    text-align: center;
+}
+
+.height{
+    height: 345px
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.card figure{
+    margin: 0;
+}
+
+.card img{
+    width: 100%
+}
+
+@media only screen and (max-width: 700px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .feature{
+        order: -1;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    header{
+        background-color: black;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-bottom: thin solid white;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
