@@ -22,3 +22,37 @@ nav a:hover{
        background-color: azure;
        text-decoration: underline;
 }
+
+.container{
+       display: flex;
+       flex-direction: column;
+}
+
+aside{
+       display: flex;
+       flex-direction: column;
+       width: 30%;
+       padding: 20px;
+       background-color: rgb(124, 146, 139);
+}
+
+main{
+       width: 75%;
+       padding: 20px;
+}
+
+.card{
+       display: grid;
+       grid-template-columns: 2fr 2fr 2fr;
+}
+
+.size{
+       width: 350px;
+       height: auto;
+}
+
+footer div{
+       display: grid;
+       grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+       text-align: center;
+}
