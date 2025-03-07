@@ -1,43 +1,39 @@
-body{background-color: rgb(169, 179, 179);}
+body{
+       background-color: rgba(131, 131, 134, 0.76);
+}
 
-.container{margin: auto;
-           background-color: rgb(195, 200, 204);}
+header{
+       background-color: rgb(194, 174, 174);
+       text-align: center;
+}
+nav{
+       display: flex;
+       justify-content: space-evenly;
+       background-color: beige;
+       padding: 0.5%;
+}
 
-header{background-color: rgb(245, 249, 249);
-       text-align: center;}
+nav a{
+       text-decoration: none;
+       color: rgb(206, 26, 26);
+}
 
-nav {display: flex;
-     justify-content: space-evenly;}
+nav a:hover{
+       color: rgb(106, 165, 165);
+       text-decoration: underline;
+}
 
-nav a{display: block;}
+.container{
+       display: flex;
+       flex-direction: row;
+}
 
-nav a:hover{background-color: aquamarine;}
+aside{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+}
 
-#sidebar{display: grid;
-         grid-template-columns: 1fr;
-         gap: 10px;
-         width: 200px;
-         padding: 15px;}
-
-.shadow, .jinwoo, .lugh, .diablo, .rimuru, .ragna {width: 350px; height: 280px;
-border: 1px solid black; border-radius: 0%; box-shadow: none;}
-
-main{text-align: center;}
-
-main p{height: 1px;}
-main h4{height: 1px}
-
-.pictures{display: grid;
-          gap:5px;
-          grid-template-columns: 2fr 2fr 2fr;}
-
-footer{padding: 1px;}
-
-.fLink a{display: block;}
-
-.fLink{display: grid;
-       grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-       grid-template-rows: 2fr 1fr 2fr 1fr;
-       margin: 10px;}
-
-.fLink a:hover{background-color: aquamarine}
+.card{
+       width: 100%;
+}
