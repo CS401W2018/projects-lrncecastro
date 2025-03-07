@@ -40,6 +40,10 @@ nav a:hover{
     width: 100%
 }
 
+.center{
+    text-align: center;
+}
+
 .card{
     border: thin solid;
     box-shadow: 3px 3px 3px;
@@ -54,10 +58,6 @@ nav a:hover{
 main{
     width: 75%;
     padding: 20px;
-}
-
-main h2{
-    text-align: center;
 }
 
 .row{
