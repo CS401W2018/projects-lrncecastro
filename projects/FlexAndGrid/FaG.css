@@ -34,20 +34,20 @@ aside{
        width: 30%;
        padding: 20px;
        background-color: rgb(124, 146, 139);
+       text-align: center;
 }
 
-main{
-       width: 75%;
-       padding: 20px;
+aside h2{
+       text-align: center;
 }
 
-.row{
+.cardprofile{
        display: grid;
        grid-template-columns: 2fr 2fr 2fr;
 }
 
 .size{
-       width: 350px;
+       width: 100%;
        height: auto;
 }
 
