@@ -1,36 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex and Grid</title>
-    <link rel="stylesheet" href="FaG.css">
-    <link rel="shortcut icon" href="LC.ico" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <h1>Flex and Grid - Project</h1>
-    </header>
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Blogs</a>
-        <a href="#">More Anime</a>
-        <a href="#">Feedback</a>
-        <a href="#">Donations</a>
-    </nav>
-    <div class = "container">
-        <aside>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi molestias laudantium quibusdam obcaecati itaque consectetur delectus amet? Perspiciatis dolorem obcaecati perferendis blanditiis libero minima ipsa quaerat, repellat asperiores. Perspiciatis.</p>
-        </aside>
-    </div>
-    <main class = "card">
-        <div>
-            <figure>
-                <img src="Jinwoo.jpg" alt="">
-            </figure>
-        </div>
-        <div></div>
-    </main>
-    
-</body>
-</html>
+body{
+       background-color: rgb(203, 212, 214);
+}
+
+header{
+       text-align: center;
+       background-color: azure;
+}
+
+nav{
+       display: flex;
+       justify-content: space-evenly;
+       background-color: rgb(170, 177, 171);
+}
+
+nav a{
+       text-decoration: none;
+       color: rgb(80, 54, 22);
+}
+
+nav a:hover{
+       background-color: azure;
+       text-decoration: underline;
+}
