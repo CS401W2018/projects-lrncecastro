@@ -1,39 +1,36 @@
-body{
-       background-color: rgba(131, 131, 134, 0.76);
-}
-
-header{
-       background-color: rgb(194, 174, 174);
-       text-align: center;
-}
-nav{
-       display: flex;
-       justify-content: space-evenly;
-       background-color: beige;
-       padding: 0.5%;
-}
-
-nav a{
-       text-decoration: none;
-       color: rgb(206, 26, 26);
-}
-
-nav a:hover{
-       color: rgb(106, 165, 165);
-       text-decoration: underline;
-}
-
-.container{
-       display: flex;
-       flex-direction: row;
-}
-
-aside{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-}
-
-.card{
-       width: 100%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex and Grid</title>
+    <link rel="stylesheet" href="FaG.css">
+    <link rel="shortcut icon" href="LC.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Flex and Grid - Project</h1>
+    </header>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Blogs</a>
+        <a href="#">More Anime</a>
+        <a href="#">Feedback</a>
+        <a href="#">Donations</a>
+    </nav>
+    <div class = "container">
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi molestias laudantium quibusdam obcaecati itaque consectetur delectus amet? Perspiciatis dolorem obcaecati perferendis blanditiis libero minima ipsa quaerat, repellat asperiores. Perspiciatis.</p>
+        </aside>
+    </div>
+    <main class = "card">
+        <div>
+            <figure>
+                <img src="Jinwoo.jpg" alt="">
+            </figure>
+        </div>
+        <div></div>
+    </main>
+    
+</body>
+</html>
