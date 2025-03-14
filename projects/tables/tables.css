@@ -21,7 +21,19 @@ nav a:hover{
     color: bisque;
     text-decoration: underline;
 }
-    
+
+.container{
+    display: flex;
+    justify-content: right;
+}
+
+main aside{
+    display: flex;
+    width: 200px;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
 .table{
     border: thin solid black;
     box-shadow: 3px 3px 3px;
