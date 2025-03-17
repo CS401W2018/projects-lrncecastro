@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Social</a>
+        <a href="#">Donations</a>
+        <a href="#">Register</a>
+    </nav>
+    <hr>
+    <main>
+        <form action="processing.html" method="get"></form>
+        <div class="form-row">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" required="required" placeholder="First Name">
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" required="required" placeholder="Last Name">
+        </div>
+        <div class="form-row">
+            <label for="email">Email: </label>
+            <input type="email" name="email" required="required" placeholder="Email">
+        </div>
+        <div class="form-row">
+            <label for="pass">Create Password:</label>
+            <input type="password" name="password" id="pass">
+        </div>
+        <div>
+            <label for="state">State: </label>
+            <select name="state" id="state">
+                <option value="blank"></option>
+                <option value="CO">Colorado</option>
+                <option value="HI">Hawaii</option>
+                <option value="UT">Utah</option>
+            </select>
+        </div>
+        <div>
+            <label for="year">Year in School: </label>
+            <input type="radio" name="year" value="Freshman">Freshman
+            <input type="radio" name="year" value="Sophomore">Sophomore
+            <input type="radio" name="year" value="Junior">Junior
+            <input type="radio" name="year" value="Senior">Senior
+        </div>
+        <div class="form-row">
+            <input type="submit">
+        </div>
+        <hr>
+        <h2>Engagement</h2>
+        <h3>The form tag has an "action" attribute. What does it do?</h3>
+        <p>The action is where it is sending the things its getting from the form.</p>
+        <h3>The form tag has a "method" attribute. What does it do?</h3>
+        <p>Method is a way to get what you wanted if it's either get or post.</p>
+        <h3>What is the difference between a "POST" and a "GET"?</h3>
+        <p>Post is something that you wanted it to post. Get is something you want to get something or read.</p>
+    </main>
+    <hr>
+    <footer>
+        &copy; 2025 Laurence Castro
+        <br>
+        &reg; LC
+    </footer>
+    
+</body>
+</html>
