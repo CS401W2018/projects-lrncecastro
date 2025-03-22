@@ -7,6 +7,12 @@ fieldset{
     background-color: rgb(62, 176, 182);
 }
 
+header{
+    font-size: larger;
+    font-family:sans-serif;
+    background-color: rgb(185, 106, 106);
+}
+
 legend{
     background-color: rgb(99, 99, 170);
     color: white;
@@ -45,6 +51,11 @@ legend{
 .form-spacer{
     width: 150px;
     text-align: right;
+}
+
+
+footer{
+    background-color: bisque;
 }
 
 @media ONLY screen and (max-width: 600px){
