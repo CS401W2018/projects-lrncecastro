@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="java.css">
+    <link rel="shortcut icon" href="LC.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Social</a>
+        <a href="#">Donations</a>
+        <a href="#">Register</a>
+    </nav>
+    <hr>
+    <main>
+        <fieldset>
+            <legend>Account Info</legend>
+            <form action="processing.html" method="get" id="myForm">
+                <div class="form-row">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" required="required" id="fname" placeholder="First Name">
+                </div>
+                <div class="form-row">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" name="lname" required="required" id="lname" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" required="required" id="email" placeholder="abcdef@ghijkl.com">
+                </div>
+                <div class="form-row">
+                    <label for="age">Age: </label>
+                    <input type="number" name="age" id="age" required="required">
+                </div>
+                <div class="form-row">
+                    <label for="password">Create Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State: </label>
+                    <select name="state" id="state">
+                        <option value="blank">---</option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School:</div>
+                    <label><input type="radio" name="year" value="Freshman">Freshman</label>
+                    <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
+                    <label><input type="radio" name="year" value="Junior">Junior</label>
+                    <label><input type="radio" name="year" value="Senior">Senior</label>
+                </div>
+                <div class="radio-row">
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember Me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments: </label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </form>
+        </fieldset>
+        <hr>
+        <h2>Engagement</h2>
+        <h3>What is JavaScript? How did it get its name?</h3>
+        <p>JavaScript is a programming Language. To market their a company.</p>
+        <h3>What are the two ways you can run JavaScript?</h3>
+        <p>First way is running inside of a webpage or in DOM. Download and install Node.js</p>
+        <h3>What was the most popular front-end js library?</h3>
+        <p>JQuery Library</p>
+        <h3>What is the most popular front-end js library today?</h3>
+        <p>React.js</p>
+    </main>
+    <hr>
+    <footer>
+        &copy; 2025 Laurence Castro
+        <br>
+        &reg; LC
+    </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault()
+            alert("Form Submitted")
+            const fname = document.getElementById('fname').value;
+            const lname = document.getElementById('lname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const age = document.getElementById('age').value;
+            const state = document.getElementById('state').value;
+            const comments = document.getElementById('comments').value;
+
+            if(!fname){
+                alert('You need to enter your name First Name.');
+                return
+            }
+            
+            if (!age || age<18) {
+                alert('You need to be 18.');
+                return
+            }
+
+            const FormData = {
+                fname: fname,
+                lname: lname,
+                email: email,
+                age: age,
+                password: password,
+                state: state,
+                comments: comments,
+
+            }
+
+            console.log(FormData)
+        });
+    </script>
+    
+</body>
+</html>
