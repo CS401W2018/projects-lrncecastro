@@ -30,6 +30,55 @@ nav a:hover{
     color:rgb(196, 82, 82);
 }
 
+fieldset{
+    background-color: rgb(242, 245, 244);
+}
+
+.form-row input:not([type="submit"]){
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(214, 240, 247);
+}
+
+.form-row input:not([type="submit"]):focus{
+    background-color: aliceblue;
+}
+
+.form-row input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+}
+
+.form-row, .radio-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer{
+    width: 150px;
+    text-align: right;
+}
+
+@media ONLY screen and (max-width: 600px){
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+    }
+    .form-spacer{
+        text-align: left;
+    }
+}
+
 @media only screen and (max-width: 600px){
     nav{
         flex-direction: column;
