@@ -34,6 +34,13 @@ fieldset{
     background-color: rgb(242, 245, 244);
 }
 
+legend{
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+    border: solid 2px black;
+}
+
 .form-row input:not([type="submit"]){
     padding: 5px;
     border-radius: 5px;
