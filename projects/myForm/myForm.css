@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(236, 233, 228);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(5, 80, 80);
+    color: rgb(255, 254, 251);
+    padding: 3px;
+}
+
+nav a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(5, 80, 80);
+    color: rgb(255, 254, 251);
+    padding: 3px;
+}
+
+fieldset{
+    background-color: rgb(242, 245, 244);
+}
+
+legend{
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+}
+
+.form-row input:not([type="submit"]){
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(247, 234, 214);
+}
+
+.form-row input:not([type="submit"]):focus{
+    background-color: aliceblue;
+}
+
+
+.form-row input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+}
+
+.form-row, .radio-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer{
+    width: 150px;
+    text-align: right;
+}
+
+@media ONLY screen and (max-width: 600px){
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+    }
+    .form-spacer{
+        text-align: left;
+    }
+}

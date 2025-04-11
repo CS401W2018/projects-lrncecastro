@@ -1,0 +1,101 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(234, 224, 211);
+}
+
+header{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(120, 136, 176);
+    color: rgb(236, 236, 236);
+    text-shadow: 1px 1px rgb(195, 136, 136);
+    padding: 2px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+
+nav a{
+    text-decoration: none;
+    color: brown;
+    font-size: large;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(7, 32, 50);
+    color:rgb(196, 82, 82);
+}
+
+fieldset{
+    background-color: rgb(242, 245, 244);
+}
+
+legend{
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+    border: solid 2px black;
+}
+
+.form-row input:not([type="submit"]){
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(214, 240, 247);
+}
+
+.form-row input:not([type="submit"]):focus{
+    background-color: aliceblue;
+}
+
+.form-row input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+}
+
+.form-row, .radio-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer{
+    width: 150px;
+    text-align: right;
+}
+
+@media ONLY screen and (max-width: 600px){
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+    }
+    .form-spacer{
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        line-height: 35px;
+    }
+    nav a{
+        border-bottom: thin solid white;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}

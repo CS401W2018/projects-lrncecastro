@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(240, 228, 227);
+    }
+    
+.tableBorder{
+    border: thin solid black;
+    box-shadow: 2px 2px 2px;
+    border-spacing: 0;
+    caption-side: bottom;
+    text-align: center;
+}
+    
+.tableBorder th, .tableBorder td{
+    border: thin solid rgb(187, 67, 30);
+    padding: 10px;
+    background-color: rgb(35, 153, 168);
+}

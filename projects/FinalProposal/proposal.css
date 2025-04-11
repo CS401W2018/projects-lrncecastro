@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(204, 222, 237);
+    font-family:'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: rgb(206, 181, 150);
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    background-color: rgb(206, 181, 150);
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: brown;
+    font-size: medium;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(101, 154, 201);
+    padding: 5px;
+}

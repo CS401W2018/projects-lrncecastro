@@ -1,41 +1,61 @@
-body{background-color: rgb(169, 179, 179);}
+body{
+       background-color: rgb(203, 212, 214);
+}
 
+<<<<<<< HEAD
+=======
+header{
+       text-align: center;
+       background-color: azure;
+}
+>>>>>>> a96a314d73259edf600021326fa4b768085c6f6e
 
-header{background-color: rgb(245, 249, 249);
-       text-align: center;}
+nav{
+       display: flex;
+       justify-content: space-evenly;
+       background-color: rgb(170, 177, 171);
+}
 
-nav {display: flex;
-     justify-content: space-evenly;}
+nav a{
+       text-decoration: none;
+       color: rgb(80, 54, 22);
+}
 
-nav a{display: block;}
+nav a:hover{
+       background-color: azure;
+       text-decoration: underline;
+}
 
-nav a:hover{background-color: aquamarine;}
+.container{
+       display: flex;
+       flex-direction: column;
+}
 
-#sidebar{display: grid;
-         grid-template-columns: 1fr;
-         gap: 10px;
-         width: 200px;
-         padding: 15px;}
+aside{
+       display: flex;
+       flex-direction: column;
+       width: 30%;
+       padding: 20px;
+       background-color: rgb(124, 146, 139);
+       text-align: center;
+}
 
-.shadow, .jinwoo, .lugh, .diablo, .rimuru, .ragna {width: 350px; height: 280px;
-border: 1px solid black; border-radius: 0%; box-shadow: none;}
+aside h2{
+       text-align: center;
+}
 
-main{text-align: center;}
+.cardprofile{
+       display: grid;
+       grid-template-columns: 2fr 2fr 2fr;
+}
 
-main p{height: 1px;}
-main h4{height: 1px}
+.size{
+       width: 100%;
+       height: auto;
+}
 
-.pictures{display: grid;
-          gap:5px;
-          grid-template-columns: 2fr 2fr 2fr;}
-
-footer{padding: 1px;}
-
-.fLink a{display: block;}
-
-.fLink{display: grid;
+footer div{
+       display: grid;
        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-       grid-template-rows: 2fr 1fr 2fr 1fr;
-       margin: 10px;}
-
-.fLink a:hover{background-color: aquamarine}
+       text-align: center;
+}
