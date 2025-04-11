@@ -1,0 +1,129 @@
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(102, 89, 75);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(238, 232, 232, 0.5);
+}
+
+body{
+    background-color: rgb(121, 122, 129);
+}
+
+header{
+    background-color: rgb(4, 27, 41);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(223, 213, 213);
+    font-size: large;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(7, 32, 50);
+    color:rgb(206, 203, 45);
+}
+
+.change{
+    color: aqua;
+}
+
+h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+main p{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    color: white;
+}
+
+fieldset{
+    background-color: rgb(242, 245, 244);
+}
+
+legend{
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+}
+
+.form-row input:not([type="submit"]){
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(247, 234, 214);
+}
+
+.form-row input:not([type="submit"]):focus{
+    background-color: aliceblue;
+}
+
+
+.form-row input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(21, 143, 183);
+    color: white;
+    font-size: 25px;
+}
+
+.form-row, .radio-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer{
+    width: 150px;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .content{
+            width: 100%;
+            padding: 10px;
+    }
+}
+
+@media ONLY screen and (max-width: 600px){
+    .form-row, .radio-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+    }
+    .form-spacer{
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,124 @@
+.content{
+    width: 950px;
+    margin: 0 auto;
+    background-color: rgb(102, 89, 75);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(238, 232, 232, 0.5);
+}
+
+body{
+    background-color: rgb(121, 122, 129);
+}
+
+header{
+    background-color: rgb(4, 27, 41);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(223, 213, 213);
+    font-size: large;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(7, 32, 50);
+    color:rgb(206, 203, 45);
+}
+
+.change{
+    color: aqua;
+}
+
+main h1{
+    text-align: center;
+    color:white;
+    background-color: rgb(4, 27, 41);
+    font-family:'Times New Roman', Times, serif
+}
+
+main h2{
+    color: white;
+}
+
+main p{
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif
+}
+
+footer{
+    color: aliceblue;
+}
+
+figcaption{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    background-color: rgb(4, 27, 41);
+}
+
+figcaption a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+
+figcaption a:hover{
+    text-decoration: underline;
+    color: rgb(206, 203, 45);
+}
+
+.resize{
+    width: 100%;
+    height: 350px;
+}
+
+.card{
+    float: right;
+    border: 1px solid rgb(228, 221, 221);
+    text-align: center;
+    border-radius: 0%;
+    box-shadow: 3px 3px 3px;
+}
+
+#yourname{
+    width: 100%;
+    height: 380px;
+}
+
+.rside{
+    float: left;
+    border: 1px solid rgb(228, 221, 221);
+    text-align: center;
+    border-radius: 0%;
+    box-shadow: 3px 3px 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .content{
+            width: 100%;
+            padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}

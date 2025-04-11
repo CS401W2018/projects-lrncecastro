@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="LC.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>AniFun</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="series.html">TV Series</a>
+            <a href="popular.html">Popular</a>
+            <a href="form.html" class="change">Form</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+        <main>
+            <h1>Form</h1>
+            <p>Filling out this form will register you to our website and will make you have more access to more animes we offer. You can also send feedback and ask for any request to cover up.</p>
+            <p><em>Note: This form is only a sample and all information will not be recorded</em></p>
+            <div id="message"></div>
+            <fieldset>
+                <legend>Account Info</legend>
+                <form method="get" id="myForm">
+                    <div class="form-row">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" required="required" id="fname" placeholder="First Name">
+                    </div>
+                    <div class="form-row">
+                        <label for="lname">Last Name: </label>
+                        <input type="text" name="lname" required="required" id="lname" placeholder="Last Name">
+                    </div>
+                    <div class="form-row">
+                        <label for="age">Age: </label>
+                        <input type="number" name="age" id="age" required="required">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email: </label>
+                        <input type="email" required="required" id="email" placeholder="abcdef@ghijkl.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Create Password:</label>
+                        <input type="password" name="password" id="password" required="required">
+                    </div>
+                    <div class="form-row">
+                        <label for="cpass">Confirm Password: </label>
+                        <input type="password" name="password" id="cpass" required="required">
+                    </div>
+                    <div class="form-row">
+                        <label for="state">State: </label>
+                        <select name="state" id="state">
+                            <option value="blank">---</option>
+                            <option value="CO">Colorado</option>
+                            <option value="UT">California</option>
+                            <option value="UT">Oregon</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="UT">Utah</option>
+                        </select>
+                    </div>
+                    <div class="radio-row">
+                        <div class="form-spacer">Year in School:</div>
+                        <label><input type="radio" name="year" value="Freshman">Freshman</label>
+                        <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
+                        <label><input type="radio" name="year" value="Junior">Junior</label>
+                        <label><input type="radio" name="year" value="Senior">Senior</label>
+                    </div>
+                    <div class="radio-row">
+                        <label><input type="checkbox" name="agree" id="agree" checked>Remember Me</label>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" required="required" checked>Term and Conditions</label>
+                    </div>
+                    <div class="form-row">
+                        <label for="comments">Comments: </label>
+                        <textarea name="comments" id="comments"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-spacer"></div>
+                        <input type="submit">
+                    </div>
+                </form>
+            </fieldset>
+        </main>
+        <hr>
+        <footer>
+            &copy; 2025 Laurence Castro
+            <br>
+            &reg; LC
+        </footer>
+        <script src="form.js"></script>
+    </div>
+</body>
+</html>
