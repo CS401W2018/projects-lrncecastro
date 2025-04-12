@@ -61,6 +61,10 @@ footer{
     text-align: center;
 }
 
+.grid{
+    display: grid;
+}
+
 figcaption{
     text-align: center;
     font-family:'Times New Roman', Times, serif;

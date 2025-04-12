@@ -98,6 +98,10 @@ footer{
     text-align: center;
 }
 
+.grid{
+    display: grid;
+}
+
 .clear{
     clear: both;
 }
