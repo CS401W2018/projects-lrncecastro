@@ -40,6 +40,13 @@ nav a:hover{
     color: aqua;
 }
 
+main h1{
+    text-align: center;
+    color:white;
+    background-color: rgb(4, 27, 41);
+    font-family:'Times New Roman', Times, serif
+}
+
 main p{
     color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,6 +79,7 @@ main p{
 
 footer{
     color: white;
+    text-align: center;
 }
 
 .clear{
