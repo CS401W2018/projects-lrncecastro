@@ -1,8 +1,7 @@
 document.getElementById('myForm').addEventListener('submit',function(event){
     event.preventDefault()
     alert("Form Submitted")
-    const fname = document.getElementById('fname').value;
-    const lname = document.getElementById('lname').value;
+    const Nname = document.getElementById('Nname').value;
     const age = document.getElementById('age').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
@@ -15,19 +14,13 @@ document.getElementById('myForm').addEventListener('submit',function(event){
         return
     }
 
-    if(!fname){
-        alert('You need to enter your name First Name.');
-        return
-    }
-
-    if(!lname){
-        alert("You need to enter your Last Name.")
+    if(!Nname){
+        alert('You need to enter a Nickname.');
         return
     }
     
     const FormData = {
-        fname: fname,
-        lname: lname,
+        Nname: Nname,
         age: age,
         email: email,
         password: password,

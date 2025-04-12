@@ -56,11 +56,11 @@ footer{
 }
 
 fieldset{
-    background-color: rgb(242, 245, 244);
+    background-color: rgb(59, 70, 66);
 }
 
 legend{
-    background-color: rgb(21, 143, 183);
+    background-color: rgb(5, 25, 32);
     color: white;
     font-size: 25px;
 }
@@ -78,7 +78,7 @@ legend{
 
 .form-row input[type="submit"]{
     padding: 10px;
-    background-color: rgb(21, 143, 183);
+    background-color: rgb(53, 62, 65);
     color: white;
     font-size: 25px;
 }
